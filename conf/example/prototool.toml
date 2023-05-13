@@ -1,0 +1,7 @@
+[main]
+# folder with proto files
+protoRootPath = "proto"
+# folder for protoc generated files
+protoOutputRootPath = "out"
+# base module name for generated files relative to output root dir
+protoOutputRootModuleName = "github.com/TrueGameover/prototool/out"

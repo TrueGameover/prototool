@@ -1,0 +1,7 @@
+# only for local overloads
+
+[protoc]
+# absolute path to protoc if not found in $path
+protocExecutable = "/opt/protoc/protoc-22.2-linux-x86_64/bin/protoc"
+# working dir path that will be passed to protoc
+protocWorkingDir = "/home/gameover/GoProjects/src/github.com/TrueGameover/prototool/bin"
