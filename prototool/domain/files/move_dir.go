@@ -60,7 +60,7 @@ func cloneFile(source string, target string) error {
 		_ = sourceFile.Close()
 	}()
 
-	targetFile, err := os.OpenFile(target, os.O_WRONLY|os.O_CREATE, 0755)
+	targetFile, err := os.OpenFile(target, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0755)
 	if err != nil {
 		return err
 	}
